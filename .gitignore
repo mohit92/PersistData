@@ -1,0 +1,42 @@
+# android gitignore
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+*/bin/*
+!proguard
+gen/
+Helpshift.jar
+test-server/
+*.sass-cache/
+*.DS_Store
+Helpshift/docs-gen/external/*
+Helpshift/docs-gen/internal/*
+Helpshift/docs-gen/helpshift-sdk-android-v3.x-docs/*
+Helpshift/checkouts/icu4j-50_1_1-src/
+
+# proguard ignore
+Helpshift/bin/proguard/*
+!mapping.txt
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+*.asc
+
+#Intellij
+.idea
+*.iml
+workspace.xml
+tasks.xml
+
+# Gradle
+.gradle
+build/
